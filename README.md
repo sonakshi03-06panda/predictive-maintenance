@@ -4,7 +4,7 @@ Data sets consists of multiple multivariate time series. Each data set is furthe
 
 The engine is operating normally at the start of each time series, and develops a fault at some point during the series. In the training set, the fault grows in magnitude until system failure. In the test set, the time series ends some time prior to system failure. The objective of the competition is to predict the number of remaining operational cycles before failure in the test set, i.e., the number of operational cycles after the last cycle that the engine will continue to operate. Also provided a vector of true Remaining Useful Life (RUL) values for the test data.
 
-Feature
+## Feature
 2)	time, in cycles
 3)	operational setting 1
 4)	operational setting 2
@@ -14,6 +14,7 @@ Feature
 ...
 26)	sensor measurement  26
 
+## Data
 Data Set: FD001
 Train trjectories: 100
 Test trajectories: 100
@@ -37,3 +38,4 @@ Train trjectories: 248
 Test trajectories: 249
 Conditions: SIX 
 Fault Modes: TWO (HPC Degradation, Fan Degradation)
+
